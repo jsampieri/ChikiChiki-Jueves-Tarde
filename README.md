@@ -30,13 +30,13 @@
       siempre compitiendo conmigo mismo y buscando mejorar cada día.</em>
     </td>
     <td align="center" valign="top" width="270">
-      <img src="fotos/integrante3.jpg" width="150" height="150" style="border-radius: 50%;" alt="Foto Integrante 3"/>
+      <img src="fotos/Tizi.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Integrante 3"/>
       <br/>
       <strong>Tiziano Schipani</strong>
       <br/>
       <sub>Legajo: 1214840</sub>
       <br/>
-      <em>Escribi algo sobre vos aca</em>
+      <em>Enfocado en aprender, mejorar y crecer como programador</em>
     </td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@
       <em>Motivado por el crecimiento personal y profesional, enfocado en adquirir experiencia en programación a través de la práctica, el estudio y la resolución de desafíos reales</em>
     </td>
     <td align="center" valign="top" width="270">
-      <img src="fotos/Luka.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Integrante 6"/>
+      <img src="fotos/Luro.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Integrante 6"/>
       <br/>
       <strong>Santiago Matias Luro</strong>
       <br/>
