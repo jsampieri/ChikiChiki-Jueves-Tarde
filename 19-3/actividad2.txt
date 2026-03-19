@@ -1,0 +1,33 @@
+Estrategia 1:   
+
+ Analogía: La silla con la ropa                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                        
+  Cuando llegás cansado, tirás la remera arriba de la pila de ropa en la silla. Cuando necesitás algo, agarrás lo de arriba. No movés nada, no buscás nada.                             
+                                                                                                                                                                                        
+  - Apilar: Dejás la ropa arriba de todo                                                                                                                                      
+  - Desapilar: Agarrás lo de arriba 
+  - Pro: Es lo más rápido posible, acceso directo al tope.                                                                                                                              
+  - Contra: Necesitás "saber" dónde está el tope (sería que sabemos, en este caso visualmente que hay arriba de todo)
+
+Estrategia 2:                                                                                                            
+                                                                       
+  Analogía: El fondo del placard
+                                                                                                                                                                                        
+  Cada vez que guardás una remera nueva, la metés adelante de todo, pero para eso tenés que correr toda la ropa que ya estaba un lugar para atrás. Es como reorganizar el placard entero cada vez que comprás algo nuevo.                                                                                                                                                     
+                                                                                                                                                                                        
+  - Apilar: Corrés toda la ropa un lugar y ponés la nueva adelante                                                                                                              
+  - Desapilar: Sacás la de adelante, pero después corrés todo de vuelta 
+  - Pro: Siempre sabés que el tope está en la posición 0, fácil de ubicar.                                                                                                              
+  - Contra: Es lentísimo. Mover toda la ropa cada vez que querés guardar o sacar algo es un desperdicio enorme de energía. Si quiero ropa que está atrás de todo, voy a tener que correr todo lo de adelante hasta llegar a lo que quiero                                                 
+                                                                                             
+Estrategia 3:                                                                                                         
+                                                                                                                                                                                        
+  Analogía: La silla con un cartelito
+                                                                                                                                                                                        
+  Es como la silla de la Estrategia 1, pero en vez de tener una memoria aparte (variable externa), le pegás un post-it a la silla que dice "hay 4 remeras". No movés ropa, no buscás    
+  nada, pero el post-it ocupa un lugar de la silla donde podrías haber puesto ropa.
+                                                                                                                                                                                        
+  - Apilar: Dejás la ropa arriba y actualizás el cartelito                                                                                                                   
+  - Desapilar: Sacás lo de arriba y actualizás el cartelito 
+  - Pro: No necesitás nada externo para saber cuantos elementos hay, todo está en el silla visible.                                                                                                                            
+  - Contra: Perdés un espacio de la silla para el cartelito, y si no tenés cuidado podés pasarte del límite (imposible en una silla con ropa, pero es como intentar sacar ropa de una silla vacía).               

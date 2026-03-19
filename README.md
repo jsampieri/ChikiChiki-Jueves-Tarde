@@ -30,7 +30,7 @@
       siempre compitiendo conmigo mismo y buscando mejorar cada día.</em>
     </td>
     <td align="center" valign="top" width="270">
-      <img src="fotos/Tizi.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Integrante 3"/>
+      <img src="fotos/Tizi.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Tiziano Schipani"/>
       <br/>
       <strong>Tiziano Schipani</strong>
       <br/>
@@ -41,7 +41,7 @@
   </tr>
   <tr>
     <td align="center" valign="top" width="270">
-      <img src="fotos/Fran.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Integrante 4"/>
+      <img src="fotos/Fran.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Francisco Seeber"/>
       <br/>
       <strong>Francisco Seeber</strong>
       <br/>
@@ -50,7 +50,7 @@
       <em>Muy interesado en la programación, en la IA y disfruto mucho el proceso de analizar problemas, probar distintas ideas y llegar a una solución funcional</em>
     </td>
     <td align="center" valign="top" width="270">
-      <img src="fotos/Luka.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Integrante 5"/>
+      <img src="fotos/Luka.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Luka Subotovsky"/>
       <br/>
       <strong>Luka Subotovsky</strong>
       <br/>
@@ -59,7 +59,7 @@
       <em>Motivado por el crecimiento personal y profesional, enfocado en adquirir experiencia en programación a través de la práctica, el estudio y la resolución de desafíos reales</em>
     </td>
     <td align="center" valign="top" width="270">
-      <img src="fotos/Luro.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Integrante 6"/>
+      <img src="fotos/Luro.jpeg" width="150" height="150" style="border-radius: 50%;" alt="Foto Santiago Luro"/>
       <br/>
       <strong>Santiago Matias Luro</strong>
       <br/>
@@ -70,6 +70,15 @@
     </td>
   </tr>
 </table>
+
+---
+
+## Registro de actividades
+
+| Fecha | Actividad |
+|-------|-----------|
+| 19/03/2026 | Creacion del repositorio y README <br> Actividades 1 y 2 |
+<!-- Agregar nuevas filas arriba de este comentario -->
 
 ---
 
