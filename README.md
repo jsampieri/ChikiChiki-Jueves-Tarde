@@ -75,11 +75,12 @@
 
 ## Registro de actividades
 
-| Fecha | Actividad |
-|-------|-----------|
+| Fecha      | Actividad                                                |
+|------------|----------------------------------------------------------|
 | 19/03/2026 | Creacion del repositorio y README <br> Actividades 1 y 2 |
-| 26/03/2026 | Actividad 2, Bloque 1 <br> Consignas 1 a 6|
-| 08/04/2026 | Actividad 2, Bloque 2 y 3 <br> Completos|
+| 26/03/2026 | Actividad 2, Bloque 1 <br> Consignas 1 a 6               |
+| 08/04/2026 | Actividad 2, Bloque 2 y 3 <br> Completos                 |
+| 09/04/2026 | Actividad 2, Bloque 4 y 5 <br> Avances                   |
 <!-- Agregar nuevas filas arriba de este comentario -->
 
 ---
