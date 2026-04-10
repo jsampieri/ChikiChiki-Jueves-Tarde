@@ -26,9 +26,11 @@ public class AgendaContactos implements IAgenda {
     @Override
     public void agregarContacto(String nombre, String telefono) {
         int index = buscarIndice(nombre);
-        if (index == -1){
-            telefonos[cantidad] = telefono;
+        if (index != -1) {
+            // ya existe → reemplazo
+            telefonos[index] = telefono;
         } else {
+            // nuevo → agrego
             nombres[cantidad] = nombre;
             telefonos[cantidad] = telefono;
             cantidad++;
@@ -36,22 +38,29 @@ public class AgendaContactos implements IAgenda {
     }
 
     @Override
-    public void buscarContacto(String nombre) {
+    public String buscarContacto(String nombre) {
         int index = buscarIndice(nombre);
+
         if (index != -1) {
-        } else  {
+            return telefonos[index];
+        } else {
+            return null;
         }
     }
 
-    @Override
     public void eliminarContacto(String nombre) {
         int index = buscarIndice(nombre);
 
         if (index != -1) {
-            for (int i=index; i<cantidad; i++){
-                nombres[i] = nombres[i+1];
-                telefonos[i] = telefonos[i+1];
+            for (int i = index; i < cantidad - 1; i++) {
+                nombres[i] = nombres[i + 1];
+                telefonos[i] = telefonos[i + 1];
             }
+
+            // limpiar última posición (clave)
+            nombres[cantidad - 1] = null;
+            telefonos[cantidad - 1] = null;
+
             cantidad--;
         }
     }
