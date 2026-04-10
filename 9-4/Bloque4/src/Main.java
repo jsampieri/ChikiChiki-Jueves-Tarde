@@ -26,5 +26,54 @@ public class Main {
 
         System.out.println("\nBuscar Fran nuevamente:");
         System.out.println(agenda.buscarContacto("Fran"));
+
+        System.out.println("=== Consigna 2: Sinonimos ===");
+
+        Sinonimos dic = new Sinonimos();
+
+        dic.InicializarDiccionario();
+
+        // Agregar datos
+        dic.Agregar("feliz", "contento");
+        dic.Agregar("feliz", "alegre");
+        dic.Agregar("feliz", "animado");
+
+        dic.Agregar("triste", "deprimido");
+        dic.Agregar("triste", "melancolico");
+
+        // Mostrar claves
+        System.out.println("\nClaves actuales:");
+        String[] claves = dic.Claves();
+        for (int i = 0; i < claves.length; i++) {
+            System.out.println("Clave: " + claves[i]);
+        }
+
+        // Mostrar sinónimos de "feliz"
+        System.out.println("\nSinónimos de 'feliz':");
+        String[] sinonimos = dic.CopiaSinonimoClave("feliz");
+        for (int i = 0; i < sinonimos.length; i++) {
+            System.out.println("- " + sinonimos[i]);
+        }
+
+        // Eliminar un sinónimo
+        System.out.println("\nEliminando 'alegre' de 'feliz'...");
+        dic.EliminarValor("feliz", "alegre");
+
+        System.out.println("Sinónimos de 'feliz' después de eliminar:");
+        sinonimos = dic.CopiaSinonimoClave("feliz");
+        for (int i = 0; i < sinonimos.length; i++) {
+            System.out.println("- " + sinonimos[i]);
+        }
+
+        // Eliminar una clave
+        System.out.println("\nEliminando clave 'triste'...");
+        dic.EliminarClave("triste");
+
+        // Mostrar claves finales
+        System.out.println("Claves finales:");
+        claves = dic.Claves();
+        for (int i = 0; i < claves.length; i++) {
+            System.out.println("Clave: " + claves[i]);
+        }
     }
 }

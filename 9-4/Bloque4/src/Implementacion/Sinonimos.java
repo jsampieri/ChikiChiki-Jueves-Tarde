@@ -24,17 +24,22 @@ public class Sinonimos implements ISinonimos {
     @Override
     public void Agregar(String clave, String sinonimo) {
         int idx = buscarClave(clave);
-        if(idx == -1) {
-            if (cantidadClaves < MAX_CLAVES) return;
+        if (idx == -1) {
+            if (cantidadClaves >= MAX_CLAVES) return;
+
             idx = cantidadClaves;
             claves[idx] = clave;
             cantValores[idx] = 0;
             cantidadClaves++;
         }
-        for (int i = 0; i < cantValores[idx]; i++){
-           if(valores[idx][i].equals(sinonimo)) return;
-        if (cantValores[idx]< MAX_VALORES)
-            valores[idx][cantValores[idx]++] = sinonimo;
+
+        for (int i = 0; i < cantValores[idx]; i++) {
+            if (valores[idx][i].equals(sinonimo)) return;
+        }
+
+        if (cantValores[idx] < MAX_VALORES) {
+            valores[idx][cantValores[idx]] = sinonimo;
+            cantValores[idx]++;
         }
 
     }
@@ -55,22 +60,38 @@ public class Sinonimos implements ISinonimos {
 
     @Override
     public void EliminarClave(String clave) {
-
+        int idx = buscarClave(clave);
+        if(idx == -1) {
+            return;
+        }
+        claves[idx] = claves[cantidadClaves -1];
+        valores[idx] = valores[cantidadClaves -1];
+        cantValores[idx] = cantValores[cantidadClaves -1];
+        cantidadClaves --;
     }
 
     @Override
-    public int[] Recuperar(String clave) {
-        return new int[0];
+    public String[] CopiaSinonimoClave(String clave) {
+        int idx = buscarClave(clave);
+
+        if (idx == -1) {
+            return new String[0];
+        }
+
+        String[] aux = new String[cantValores[idx]];
+        for (int i = 0; i < cantValores[idx]; i++) {
+            aux[i] = valores[idx][i];
+        }
+        return aux;
     }
 
     @Override
-    public void EliminarClave(int clave) {
-
-    }
-
-    @Override
-    public int[] Claves() {
-        return new int[0];
+    public String[] Claves() {
+        String[] aux = new String[cantidadClaves];
+        for (int i = 0; i < cantidadClaves; i++) {
+            aux[i] = claves[i];
+        }
+        return aux;
     }
 
     private int buscarClave(String clave) {
