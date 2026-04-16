@@ -75,5 +75,19 @@ public class Main {
         for (int i = 0; i < claves.length; i++) {
             System.out.println("Clave: " + claves[i]);
         }
+        
+        //ejercicio 3 
+        Torneo miTorneo = new Torneo();
+
+        miTorneo.iniciarTorneo();
+        miTorneo.agregarUsuarios("Juan", 50);
+        miTorneo.agregarUsuarios("Manu", 80);
+        miTorneo.agregarUsuarios("Tizi", 60);
+        System.out.println("Lista de usuarios:");
+        miTorneo.mostrarUsusarios();
+        int puntos = miTorneo.buscarUsuario("Juan");
+        System.out.println("\nEl puntaje de Juan es: " + puntos);
+        int max=miTorneo.puntajeMaximo();
+        System.out.println("\nEl puntaje mas alto del torneo es: "+max);
     }
 }
