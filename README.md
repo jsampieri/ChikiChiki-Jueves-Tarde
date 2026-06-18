@@ -83,6 +83,7 @@
 | 09/04/2026 | Actividad 2, Bloque 4 y 5 <br> Avances                   |
 | 10/04/2026 | Actividad 2, Bloque 4 y 5 <br> Consigna 1 y 2            |
 | 14/05/2026 | Ejercicios Costos                                        |
+| 15/06/2026 | Ejercicios Arboles                                       |
 <!-- Agregar nuevas filas arriba de este comentario -->
 
 ---
